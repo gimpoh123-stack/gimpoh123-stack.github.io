@@ -1,0 +1,102 @@
+[
+  {
+    "id": "gimpo-0001",
+    "name": "KAKURE SUSHI 카쿠레스시",
+    "area": "풍무동",
+    "category": "일식",
+    "address": "경기도 김포시 풍무2로 43, 골든타워 107호 (풍무동)",
+    "latitude": "37.6104596228",
+    "longitude": "126.7256323381",
+    "menus": [
+      {
+        "name": "대표 일식 메뉴",
+        "price": null,
+        "tags": ["깔끔한", "데이트"]
+      }
+    ],
+    "priceLevel": "정보 없음",
+    "situations": ["데이트", "친구와 식사"],
+    "tags": ["깔끔한", "일식", "데이트"],
+    "mapUrl": "https://map.naver.com/p/search/%EA%B9%80%ED%8F%AC%20KAKURE%20SUSHI%20%EC%B9%B4%EC%BF%A0%EB%A0%88%EC%8A%A4%EC%8B%9C",
+    "searchUrl": "https://search.naver.com/search.naver?query=%EA%B9%80%ED%8F%AC%20KAKURE%20SUSHI%20%EC%B9%B4%EC%BF%A0%EB%A0%88%EC%8A%A4%EC%8B%9C",
+    "imageType": "category",
+    "imageUrl": "",
+    "description": "공공데이터에 등록된 김포시 영업 사업장입니다. 메뉴와 가격은 방문 전 검색 링크에서 확인하세요.",
+    "dataSource": "일반음식점(일식)현황.csv"
+  },
+  {
+    "id": "gimpo-0002",
+    "name": "김포 중식 후보",
+    "area": "구래동",
+    "category": "중식",
+    "address": "김포시 구래동",
+    "latitude": "",
+    "longitude": "",
+    "menus": [
+      {
+        "name": "대표 중식 메뉴",
+        "price": null,
+        "tags": ["면", "든든한", "국물"]
+      }
+    ],
+    "priceLevel": "정보 없음",
+    "situations": ["혼밥", "친구와 식사", "가족 외식"],
+    "tags": ["든든한", "면", "국물"],
+    "mapUrl": "https://map.naver.com/p/search/%EA%B9%80%ED%8F%AC%20%EA%B5%AC%EB%9E%98%EB%8F%99%20%EC%A4%91%EC%8B%9D",
+    "searchUrl": "https://search.naver.com/search.naver?query=%EA%B9%80%ED%8F%AC%20%EA%B5%AC%EB%9E%98%EB%8F%99%20%EC%A4%91%EC%8B%9D",
+    "imageType": "category",
+    "imageUrl": "",
+    "description": "웹페이지 동작 확인용 임시 데이터입니다. CSV 추출 후 실존 사업장명으로 교체할 예정입니다.",
+    "dataSource": "temporary"
+  },
+  {
+    "id": "gimpo-0003",
+    "name": "김포 카페 후보",
+    "area": "장기동",
+    "category": "카페",
+    "address": "김포시 장기동",
+    "latitude": "",
+    "longitude": "",
+    "menus": [
+      {
+        "name": "커피/디저트",
+        "price": null,
+        "tags": ["가벼운", "카페"]
+      }
+    ],
+    "priceLevel": "저렴함",
+    "situations": ["혼밥", "친구와 식사", "데이트"],
+    "tags": ["가벼운", "카페", "데이트"],
+    "mapUrl": "https://map.naver.com/p/search/%EA%B9%80%ED%8F%AC%20%EC%9E%A5%EA%B8%B0%EB%8F%99%20%EC%B9%B4%ED%8E%98",
+    "searchUrl": "https://search.naver.com/search.naver?query=%EA%B9%80%ED%8F%AC%20%EC%9E%A5%EA%B8%B0%EB%8F%99%20%EC%B9%B4%ED%8E%98",
+    "imageType": "category",
+    "imageUrl": "",
+    "description": "웹페이지 동작 확인용 임시 데이터입니다. CSV 추출 후 실존 사업장명으로 교체할 예정입니다.",
+    "dataSource": "temporary"
+  },
+  {
+    "id": "gimpo-0004",
+    "name": "김포 김밥도시락 후보",
+    "area": "사우동",
+    "category": "분식",
+    "address": "김포시 사우동",
+    "latitude": "",
+    "longitude": "",
+    "menus": [
+      {
+        "name": "김밥/도시락",
+        "price": null,
+        "tags": ["저렴한", "가벼운", "혼밥"]
+      }
+    ],
+    "priceLevel": "저렴함",
+    "situations": ["혼밥", "친구와 식사"],
+    "tags": ["저렴한", "가벼운", "혼밥"],
+    "mapUrl": "https://map.naver.com/p/search/%EA%B9%80%ED%8F%AC%20%EC%82%AC%EC%9A%B0%EB%8F%99%20%EA%B9%80%EB%B0%A5",
+    "searchUrl": "https://search.naver.com/search.naver?query=%EA%B9%80%ED%8F%AC%20%EC%82%AC%EC%9A%B0%EB%8F%99%20%EA%B9%80%EB%B0%A5",
+    "imageType": "category",
+    "imageUrl": "",
+    "description": "웹페이지 동작 확인용 임시 데이터입니다. CSV 추출 후 실존 사업장명으로 교체할 예정입니다.",
+    "dataSource": "temporary"
+  }
+]
