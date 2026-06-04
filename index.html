@@ -1,25 +1,23 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="ko">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>김포 메뉴 추천</title>
+    <title>김포 일식 메뉴 추천</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header class="site-header">
       <div class="hero-copy">
-        <p class="eyebrow">Gimpo food recommender</p>
-        <h1>오늘의 김포 한 끼를 골라볼까요?</h1>
-        <p class="lead">
-          조건을 고르면 가까운 후보부터, 고민하기 싫은 날에는 랜덤으로. 김포 음식점 추천을 가볍게 시작해보세요.
-        </p>
+        <p class="eyebrow">Gimpo Japanese food recommender</p>
+        <h1>오늘 김포에서 어떤 일식을 먹을까요?</h1>
+        <p class="lead">김포시 일반음식점 일식 현황을 바탕으로 지역, 가격대, 식사 상황, 메뉴 취향에 가까운 후보를 추천합니다.</p>
       </div>
       <div class="hero-art" aria-hidden="true">
         <span class="plate">Pick</span>
         <span class="bubble one">지역</span>
-        <span class="bubble two">가격</span>
-        <span class="bubble three">취향</span>
+        <span class="bubble two">취향</span>
+        <span class="bubble three">상황</span>
       </div>
     </header>
 
@@ -27,68 +25,22 @@
       <section class="panel controls" aria-label="추천 조건">
         <div class="field">
           <label for="category">음식 종류</label>
-          <select id="category">
-            <option value="">전체</option>
-            <option value="한식">한식</option>
-            <option value="중식">중식</option>
-            <option value="일식">일식</option>
-            <option value="양식">양식</option>
-            <option value="분식">분식</option>
-            <option value="카페">카페</option>
-            <option value="편의점">편의점</option>
-            <option value="기타">기타</option>
-          </select>
+          <select id="category"><option value="">전체</option></select>
         </div>
-
         <div class="field">
           <label for="area">지역</label>
-          <select id="area">
-            <option value="">전체</option>
-            <option value="구래동">구래동</option>
-            <option value="마산동">마산동</option>
-            <option value="장기동">장기동</option>
-            <option value="운양동">운양동</option>
-            <option value="풍무동">풍무동</option>
-            <option value="사우동">사우동</option>
-            <option value="고촌읍">고촌읍</option>
-            <option value="통진읍">통진읍</option>
-            <option value="양촌읍">양촌읍</option>
-          </select>
+          <select id="area"><option value="">전체</option></select>
         </div>
-
         <div class="field">
           <label for="priceLevel">가격대</label>
-          <select id="priceLevel">
-            <option value="">전체</option>
-            <option value="저렴함">저렴함</option>
-            <option value="보통">보통</option>
-            <option value="든든한 식사">든든한 식사</option>
-            <option value="정보 없음">정보 없음</option>
-          </select>
+          <select id="priceLevel"><option value="">전체</option></select>
         </div>
-
-        <fieldset class="chips">
-          <legend>식사 상황</legend>
-          <label><input type="checkbox" name="situation" value="혼밥">혼밥</label>
-          <label><input type="checkbox" name="situation" value="친구와 식사">친구와 식사</label>
-          <label><input type="checkbox" name="situation" value="가족 외식">가족 외식</label>
-          <label><input type="checkbox" name="situation" value="데이트">데이트</label>
-        </fieldset>
-
-        <fieldset class="chips">
-          <legend>메뉴 성향</legend>
-          <label><input type="checkbox" name="taste" value="매운">매운</label>
-          <label><input type="checkbox" name="taste" value="국물">국물</label>
-          <label><input type="checkbox" name="taste" value="든든한">든든한</label>
-          <label><input type="checkbox" name="taste" value="가벼운">가벼운</label>
-          <label><input type="checkbox" name="taste" value="깔끔한">깔끔한</label>
-        </fieldset>
-
+        <fieldset class="chips" id="situationOptions"><legend>식사 상황</legend></fieldset>
+        <fieldset class="chips" id="tasteOptions"><legend>메뉴 취향</legend></fieldset>
         <div class="field">
           <label for="keyword">검색어</label>
-          <input id="keyword" type="search" placeholder="예: 스시, 카페, 김밥">
+          <input id="keyword" type="search" placeholder="예: 스시, 라멘, 장기동">
         </div>
-
         <div class="actions">
           <button class="primary" id="recommendButton" type="button">조건 추천</button>
           <button id="randomButton" type="button">랜덤 추천</button>
@@ -110,9 +62,8 @@
     </main>
 
     <footer class="site-footer">
-      <p>공공데이터 기반 MVP입니다. 메뉴와 가격은 방문 전 지도/검색 링크에서 다시 확인하세요.</p>
+      <p>공공데이터 기반 MVP입니다. 메뉴, 가격, 영업 여부는 방문 전 지도와 검색 링크에서 다시 확인하세요.</p>
     </footer>
-
     <script src="script.js"></script>
   </body>
 </html>
