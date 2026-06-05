@@ -46,7 +46,7 @@ function bindEvents() {
 }
 
 function buildFilterOptions() {
-  fillSelect(els.category, uniqueValues("category"));
+  fillSelect(els.category, uniqueValues("category").filter(v => !v.startsWith("경기도")));
   fillSelect(els.area, uniqueValues("area"));
   fillSelect(els.priceLevel, uniqueValues("priceLevel"));
   fillChecks(els.situationOptions, "situation", orderedValues(uniqueArray(state.restaurants.flatMap((item) => item.situations || [])), preferred.situations));
